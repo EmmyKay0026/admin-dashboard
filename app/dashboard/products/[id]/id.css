@@ -1,0 +1,13 @@
+form input,
+form select,
+form textarea {
+  padding: 7px 10px;
+  border: 2px solid #db7c26;
+  border-radius: 5px;
+  color: black;
+}
+
+select,
+option {
+  color: black;
+}

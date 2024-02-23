@@ -1,0 +1,19 @@
+form input,
+form select,
+form textarea {
+  padding: 15px 20px;
+  background-color: transparent;
+  border: 2px solid #db7c26;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 45%;
+}
+form input::placeholder,
+form select::placeholder,
+form textarea::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+option {
+  background-color: black;
+}
