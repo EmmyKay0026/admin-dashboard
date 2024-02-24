@@ -1,7 +1,7 @@
 import Search from "@/app/ui/dashboard/search/search";
 import Image from "next/image";
 import Link from "next/link";
-import download1 from "../../../public/download1.jpeg";
+import download1 from "../../../public/download1.jpg";
 import download from "../../../public/download.jpeg";
 import "./products.css";
 import Pagination from "@/app/ui/dashboard/pagination/pagination";
@@ -101,36 +101,6 @@ const Products = async ({ searchParams }) => {
               </tr>
             );
           })}
-          <tr>
-            <td>
-              <div className="flex items-center gap-2">
-                <Image
-                  src={download}
-                  widdth={30}
-                  heyight={30}
-                  className="h-[30px] w-[30px] rounded-[100%]"
-                />
-                Soldering Lead
-              </div>
-            </td>
-            <td>Desc</td>
-            <td>$999</td>
-            <td>16.02.2024</td>
-            <td>72</td>
-            <td>
-              <div className="flex gap-[10px]">
-                <Link href="/dashboard/products/1">
-                  <button className="px-[10px] py-[5px] bg-[teal] rounded-[5px] cursor-pointer">
-                    View
-                  </button>
-                </Link>
-
-                <button className="px-[10px] py-[5px] bg-[crimson] rounded-[5px] cursor-pointer">
-                  Delete
-                </button>
-              </div>
-            </td>
-          </tr>
         </tbody>
       </table>
       <Pagination count={count} />

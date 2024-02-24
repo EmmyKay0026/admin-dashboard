@@ -1,5 +1,5 @@
 import { fetchProduct } from "@/app/lib/data";
-import itachi from "../../../../public/itachi.jpg";
+import download1 from "../../../../public/download1.jpg";
 import "./id.css";
 import { updateProduct } from "@/app/lib/action";
 
@@ -14,8 +14,19 @@ const SingleProductPage = async ({ params }) => {
     <div className="flex gap-[50px] mt-[20px]">
       <div className="flex-1">
         <div className="w-[300px] rounded-[10px] h-[300px] font-bold relative">
-          <Image src={product.img || itachi} className="w-full mb-[20px]" />
-          {product.title}
+          <Image
+            src={product.img || download1}
+            width={100}
+            height={100}
+            className="w-full mb-[20px]"
+          />
+
+          <p>Title: {product.title}</p>
+          <p>Description: {product.desc}</p>
+          <p>Price: {product.price}</p>
+          <p>Stock: {product.stock}</p>
+          <p>Color: {product.color}</p>
+          <p>Size: {product.size}</p>
         </div>
       </div>
       <div className="flex-3 w-full">

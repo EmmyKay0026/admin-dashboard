@@ -7,6 +7,7 @@ form textarea {
   border-radius: 5px;
   margin-bottom: 20px;
   width: 45%;
+  color: white;
 }
 form input::placeholder,
 form select::placeholder,
@@ -15,5 +16,5 @@ form textarea::placeholder {
   opacity: 0.8;
 }
 option {
-  background-color: black;
+  background-color: white;
 }

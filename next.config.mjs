@@ -26,6 +26,18 @@ const nextConfig = {
         protocol: "https",
         hostname: "img.freepik.com",
       },
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.themobileindian.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.technocratng.com",
+      },
     ],
   },
 };

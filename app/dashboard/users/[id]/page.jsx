@@ -19,11 +19,10 @@ const SingleUserPage = async ({ params }) => {
             height={300}
             className=" mb-[20px]"
           />
-          <p>Username:{user.username}</p>
+          <p>Username: {user.username}</p>
           <p>Email: {user.email}</p>
           <p>Phone: {user.phone}</p>
           <p>Address: {user.address}</p>
-          <p>Is Admin: {user.isAdmin}</p>
         </div>
       </div>
       <div className="flex-3 w-full">
