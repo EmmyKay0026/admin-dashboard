@@ -1,13 +1,11 @@
 "use client";
 import React from "react";
 
-
 const LoginForm = () => {
- 
   return (
     <form
       className=" text-black w-[500px] h-[500px] p-[50px] flex flex-col justify-center items-center bg-techko-second rounded-[10px] gap-[30px]"
-      action={handleLogin}
+      action=""
     >
       <h1 className="font-bold text-white text-[24px]">Login</h1>
       <input
