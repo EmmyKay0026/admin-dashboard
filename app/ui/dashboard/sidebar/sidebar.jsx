@@ -84,7 +84,7 @@ const Sidebar = async () => {
   return (
     <>
       <div className="position-sticky  top-[40px] ">
-        <div className="flex items-center gap-[20px] mb-[20px]">
+        <div className="flex flex-col items-start lg:flex-row lg:items-center gap-[20px] mb-[20px]">
           <Image
             className="rounded-[50%]"
             src={emmanuel}
