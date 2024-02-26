@@ -8,9 +8,9 @@ const Transactions = () => {
     <>
       <div className="my-[20px]"></div>
 
-      <Transaction />
-      <div className="my-[20px]"></div>
       <Chart />
+      <div className="my-[20px]"></div>
+      <Transaction />
     </>
   );
 };
